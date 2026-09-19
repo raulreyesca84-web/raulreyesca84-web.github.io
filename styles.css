@@ -110,3 +110,7 @@ summary{cursor:pointer;font-size:1.11rem;font-weight:700}
   text-align: justify;
   hyphens: auto;
 }
+#inflexion .prose p {
+  text-align: justify;
+  hyphens: auto;
+}
