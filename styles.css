@@ -32,6 +32,27 @@ h1,h2,h3{line-height:1.16}
 h1{font-weight:500;font-size:clamp(3.2rem,7vw,6.3rem);letter-spacing:-.045em;margin:0 0 22px}
 h2{font-weight:500;font-size:clamp(2.05rem,4vw,3.35rem);letter-spacing:-.025em;margin:0 0 28px}
 h3{font-size:1.2rem;margin:0 0 9px}
+.hero-program{
+  font-size:clamp(2rem,3.8vw,3.25rem);
+  line-height:1.12;
+  letter-spacing:-.025em;
+  color:var(--accent);
+  margin:-8px 0 10px;
+}
+
+.hero-fields{
+  margin:0 0 7px;
+  color:var(--muted);
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.88rem;
+  letter-spacing:.045em;
+}
+
+.hero-method{
+  margin:0 0 22px;
+  color:var(--muted);
+  font-size:1rem;
+}
 .lead{font-size:clamp(1.21rem,2.15vw,1.56rem);max-width:800px;color:#38342f;margin:0}
 .actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:30px}
 .button{font-family:Arial,Helvetica,sans-serif;font-size:.9rem;text-decoration:none;padding:10px 14px;border:1px solid var(--accent);display:inline-block}
