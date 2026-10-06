@@ -1,0 +1,228 @@
+items:
+- id: wielomski-2022
+  category: research
+  featured: false
+  citation_es: 'Adam Wielomski, <em>Demokracja nieliberalna</em>, Varsovia, 2022, p. 28, nota 31. Cita “John Locke: el colonialismo
+    y la esclavitud”.'
+  citation_en: 'Adam Wielomski, <em>Demokracja nieliberalna</em>, Warsaw, 2022, p. 28, n. 31. Cites “John Locke: el colonialismo
+    y la esclavitud”.'
+  citation_fr: 'Adam Wielomski, <em>Demokracja nieliberalna</em>, Varsovie, 2022, p. 28, note 31. Cite « John Locke: el colonialismo
+    y la esclavitud ».'
+  url: https://aws.edu.pl/wp-content/uploads/2022/09/WIELOMSKI_DemokracjaNieliberalna_www.pdf
+  source_kind: primary-fulltext
+  verification_note: Cita y referencia verificadas en el PDF institucional.
+- id: monge-2024
+  category: research
+  featured: false
+  citation_es: 'Mariano Monge Juárez, “Biopolítica, bioteología y humanismo cristiano. Fundamentos de la Contemporaneidad”,
+    en <em>Filosofía cristiana: debates, aportes, desafíos</em>, 2024, p. 340, nota 19. Cita “John Locke: el colonialismo
+    y la esclavitud”.'
+  citation_en: 'Mariano Monge Juárez, “Biopolítica, bioteología y humanismo cristiano. Fundamentos de la Contemporaneidad,”
+    in <em>Filosofía cristiana: debates, aportes, desafíos</em>, 2024, p. 340, n. 19. Cites “John Locke: el colonialismo y
+    la esclavitud”.'
+  citation_fr: 'Mariano Monge Juárez, « Biopolítica, bioteología y humanismo cristiano. Fundamentos de la Contemporaneidad
+    », dans <em>Filosofía cristiana: debates, aportes, desafíos</em>, 2024, p. 340, note 19. Cite « John Locke: el colonialismo
+    y la esclavitud ».'
+  url: https://ediciones.ucsc.cl/libros/filosofia-cristiana-debates-aportes-desafios/
+  source_kind: official-record
+  verification_note: Ficha editorial oficial del volumen; la localización exacta de la cita requiere cotejo de la edición
+    paginada usada.
+- id: moreno-2023
+  category: research
+  featured: false
+  citation_es: Noelia Moreno Orio, “El anabaptismo y su difusión territorial en el siglo XVI”, <em>Brocar</em>, núm. 47, 2023,
+    p. 166, nota 30. Cita “La teología política de Thomas Müntzer”.
+  citation_en: Noelia Moreno Orio, “El anabaptismo y su difusión territorial en el siglo XVI,” <em>Brocar</em>, no. 47, 2023,
+    p. 166, n. 30. Cites “La teología política de Thomas Müntzer”.
+  citation_fr: Noelia Moreno Orio, « El anabaptismo y su difusión territorial en el siglo XVI », <em>Brocar</em>, no 47, 2023,
+    p. 166, note 30. Cite « La teología política de Thomas Müntzer ».
+  url: https://publicaciones.unirioja.es/ojs/index.php/brocar/article/view/5656
+  source_kind: primary-fulltext
+  verification_note: Artículo oficial; la referencia aparece con el apellido mal escrito como “REYES CARMAGO”.
+- id: castillo-2024
+  category: research
+  featured: false
+  citation_es: Sandro Jaime Castillo Cruz, <em>De la revuelta como acto, al fantasma del Hada Cibernética en la poesía de
+    Carlos Germán Belli</em>, tesis de maestría, Universidad Nacional Mayor de San Marcos, 2024, p. 134. Cita el trabajo sobre
+    el acontecimiento político en Alain Badiou.
+  citation_en: Sandro Jaime Castillo Cruz, <em>De la revuelta como acto, al fantasma del Hada Cibernética en la poesía de
+    Carlos Germán Belli</em>, MA thesis, Universidad Nacional Mayor de San Marcos, 2024, p. 134. Cites the work on the political
+    event in Alain Badiou.
+  citation_fr: Sandro Jaime Castillo Cruz, <em>De la revuelta como acto, al fantasma del Hada Cibernética en la poesía de
+    Carlos Germán Belli</em>, mémoire de master, Universidad Nacional Mayor de San Marcos, 2024, p. 134. Cite le travail consacré
+    à l’événement politique chez Alain Badiou.
+  url: https://hdl.handle.net/20.500.12672/22894
+  source_kind: official-repository
+  verification_note: Registro persistente del repositorio institucional UNMSM con acceso al PDF.
+- id: lovuolo-2026
+  category: research
+  featured: true
+  citation_es: 'Santiago Lo Vuolo, “Entre historia y estructura: la noción de problema en Althusser”, <em>Praxis Filosófica</em>,
+    núm. 63, 2026, p. 16, nota 7. Cita “La antifilosofía de Marx”.'
+  citation_en: 'Santiago Lo Vuolo, “Entre historia y estructura: la noción de problema en Althusser,” <em>Praxis Filosófica</em>,
+    no. 63, 2026, p. 16, n. 7. Cites “La antifilosofía de Marx”.'
+  citation_fr: 'Santiago Lo Vuolo, « Entre historia y estructura: la noción de problema en Althusser », <em>Praxis Filosófica</em>,
+    no 63, 2026, p. 16, note 7. Cite « La antifilosofía de Marx ».'
+  featured_es: <strong>Recepción conceptual · Marx y Althusser.</strong> Santiago Lo Vuolo cita “La antifilosofía de Marx”
+    y retoma expresamente la interpretación según la cual la dialéctica hegeliana no desaparece en Marx, sino que adquiere
+    un carácter antifilosófico.
+  featured_en: <strong>Conceptual reception · Marx and Althusser.</strong> Santiago Lo Vuolo cites “La antifilosofía de Marx”
+    and explicitly takes up the interpretation according to which the Hegelian dialectic does not disappear in Marx but acquires
+    an antiphilosophical character.
+  featured_fr: <strong>Réception conceptuelle · Marx et Althusser.</strong> Santiago Lo Vuolo cite « La antifilosofía de Marx
+    » et reprend explicitement l’interprétation selon laquelle la dialectique hégélienne ne disparaît pas chez Marx, mais
+    acquiert un caractère antiphilosophique.
+  url: https://praxisfilosofica.univalle.edu.co/index.php/praxis/article/view/14761
+  source_kind: primary-fulltext
+  verification_note: Página oficial del artículo.
+- id: iquiapaza-2025
+  category: research
+  featured: false
+  citation_es: 'Lelis Adelina Caso Iquiapaza, <em>Medidas de protección en las víctimas de violencia psicológica y la vulneración
+    de derechos fundamentales...</em>, tesis de maestría, Universidad José Carlos Mariátegui, 2025, p. 26. Cita “Jean-Jacques
+    Rousseau: el problema de la propiedad privada”.'
+  citation_en: 'Lelis Adelina Caso Iquiapaza, <em>Medidas de protección en las víctimas de violencia psicológica y la vulneración
+    de derechos fundamentales...</em>, MA thesis, Universidad José Carlos Mariátegui, 2025, p. 26. Cites “Jean-Jacques Rousseau:
+    el problema de la propiedad privada”.'
+  citation_fr: 'Lelis Adelina Caso Iquiapaza, <em>Medidas de protección en las víctimas de violencia psicológica y la vulneración
+    de derechos fundamentales...</em>, mémoire de master, Universidad José Carlos Mariátegui, 2025, p. 26. Cite « Jean-Jacques
+    Rousseau: el problema de la propiedad privada ».'
+  url: https://hdl.handle.net/20.500.12819/3945
+  source_kind: official-repository
+  verification_note: Registro persistente del repositorio UJCM; la cita “Camargo, 2023” y la referencia bibliográfica están
+    verificadas en el PDF.
+- id: salazar-rodriguez-2026
+  category: research
+  featured: false
+  citation_es: 'Salvador Salazar Gutiérrez y Amalia María Rodríguez Isais, <em>Micropolíticas de la presencia: cuerpos, territorios,
+    memorias</em>, Universidad Autónoma de Ciudad Juárez, 2026, pp. 55–56. Cita “Entre Althusser y Badiou”.'
+  citation_en: 'Salvador Salazar Gutiérrez and Amalia María Rodríguez Isais, <em>Micropolíticas de la presencia: cuerpos,
+    territorios, memorias</em>, Universidad Autónoma de Ciudad Juárez, 2026, pp. 55–56. Cites “Entre Althusser y Badiou”.'
+  citation_fr: 'Salvador Salazar Gutiérrez et Amalia María Rodríguez Isais, <em>Micropolíticas de la presencia: cuerpos, territorios,
+    memorias</em>, Universidad Autónoma de Ciudad Juárez, 2026, p. 55–56. Citent « Entre Althusser y Badiou ».'
+  url: https://ulibros.com/index.php/micropoliticas-de-la-presencia-ikcmt.html
+  source_kind: official-catalog-record
+  verification_note: Ficha bibliográfica de Libros de Universidades; confirma la obra, autores, editorial e ISBN. La localización
+    pp. 55–56 debe conservarse con la verificación documental previa.
+- id: velazquez-2021-thesis
+  category: research
+  featured: false
+  citation_es: Jorge Velázquez Delgado, <em>La sangre y las barricadas. Rebeldes, revolucionarios y reaccionarios en el siglo
+    XIX francés</em>, 2021, p. 7. Cita la tesis doctoral <em>Elementos para la crítica de la Teoría del Acontecimiento Político</em>.
+  citation_en: Jorge Velázquez Delgado, <em>La sangre y las barricadas. Rebeldes, revolucionarios y reaccionarios en el siglo
+    XIX francés</em>, 2021, p. 7. Cites the doctoral dissertation <em>Elementos para la crítica de la Teoría del Acontecimiento
+    Político</em>.
+  citation_fr: Jorge Velázquez Delgado, <em>La sangre y las barricadas. Rebeldes, revolucionarios y reaccionarios en el siglo
+    XIX francés</em>, 2021, p. 7. Cite la thèse de doctorat <em>Elementos para la crítica de la Teoría del Acontecimiento
+    Político</em>.
+  url: https://siia.unam.mx/siia-publico/c/busqueda_individual.php?id=78757
+  source_kind: official-bibliographic-record
+  verification_note: Registro institucional UNAM/SIIA de la obra con ISBN; no ofrece lectura por página.
+- id: toledo-2022
+  category: research
+  featured: true
+  citation_es: 'Stefany Jesús Toledo Suazo, <em>Poéticas de la memoria traumática y del cuerpo desaparecido: Reconstrucción
+    crítica del panorama teatral post-golpe (1974-1990) y sus huellas en la concepción y práctica del cuerpo del actor contemporáneo</em>,
+    tesis de Licenciatura en Teatro, Universidad Academia de Humanismo Cristiano, Santiago de Chile, 2022, p. 10. Cita “El
+    acontecimiento político en la obra de Alain Badiou. Una reflexión a partir de los acontecimientos de la Revolución Francesa”.'
+  citation_en: 'Stefany Jesús Toledo Suazo, <em>Poéticas de la memoria traumática y del cuerpo desaparecido: Reconstrucción
+    crítica del panorama teatral post-golpe (1974-1990) y sus huellas en la concepción y práctica del cuerpo del actor contemporáneo</em>,
+    undergraduate thesis in Theatre, Universidad Academia de Humanismo Cristiano, Santiago de Chile, 2022, p. 10. Cites “El
+    acontecimiento político en la obra de Alain Badiou. Una reflexión a partir de los acontecimientos de la Revolución Francesa”.'
+  citation_fr: 'Stefany Jesús Toledo Suazo, <em>Poéticas de la memoria traumática y del cuerpo desaparecido: Reconstrucción
+    crítica del panorama teatral post-golpe (1974-1990) y sus huellas en la concepción y práctica del cuerpo del actor contemporáneo</em>,
+    mémoire de licence en théâtre, Universidad Academia de Humanismo Cristiano, Santiago du Chili, 2022, p. 10. Cite « El
+    acontecimiento político en la obra de Alain Badiou. Una reflexión a partir de los acontecimientos de la Revolución Francesa
+    ».'
+  featured_es: <strong>Recepción conceptual · interdisciplinaria.</strong> Toledo Suazo incorpora la conceptualización del
+    acontecimiento político desarrollada por Raúl Reyes Camargo a partir de Alain Badiou para analizar el golpe de Estado
+    chileno, articulando acontecimiento, subversión, memoria y teatro.
+  featured_en: <strong>Conceptual reception · interdisciplinary.</strong> Toledo Suazo draws on Raúl Reyes Camargo’s conceptualization
+    of the political event through Alain Badiou to analyze the Chilean coup d’état, connecting event, subversion, memory,
+    and theatre.
+  featured_fr: <strong>Réception conceptuelle · interdisciplinaire.</strong> Toledo Suazo mobilise la conceptualisation de
+    l’événement politique développée par Raúl Reyes Camargo à partir d’Alain Badiou pour analyser le coup d’État chilien,
+    en articulant événement, subversion, mémoire et théâtre.
+  url: https://bibliotecadigital.academia.cl/handle/123456789/7440
+  source_kind: official-repository
+  verification_note: Registro persistente de la tesis; la cita sustantiva fue verificada en el PDF.
+- id: bustamante-2025
+  category: bibliography
+  featured: false
+  citation_es: 'Daniela Bustamante Cardona, “De la propiedad de la tierra a la propiedad de las ideas: capitalismo cognitivo”,
+    Universidad Pontificia Bolivariana, 2025, p. 27. Integra en su bibliografía “Jean-Jacques Rousseau: el problema de la
+    propiedad privada”.'
+  citation_en: 'Daniela Bustamante Cardona, “De la propiedad de la tierra a la propiedad de las ideas: capitalismo cognitivo,”
+    Universidad Pontificia Bolivariana, 2025, p. 27. Includes “Jean-Jacques Rousseau: el problema de la propiedad privada”
+    in the bibliography.'
+  citation_fr: 'Daniela Bustamante Cardona, « De la propiedad de la tierra a la propiedad de las ideas: capitalismo cognitivo
+    », Universidad Pontificia Bolivariana, 2025, p. 27. Intègre dans sa bibliographie « Jean-Jacques Rousseau: el problema
+    de la propiedad privada ».'
+  url: https://repository.upb.edu.co/bitstream/handle/20.500.11912/13412/De%20la%20propiedad%20de%20la%20tierra%20a%20la%20propiedad%20de%20las%20ideas.pdf?isAllowed=y&sequence=1
+  source_kind: primary-fulltext
+  verification_note: PDF del repositorio UPB; la referencia a Reyes Camargo aparece en la bibliografía.
+- id: hegel-studien-2024
+  category: bibliography
+  featured: true
+  citation_es: <em>Hegel-Studien</em>, vol. 57, Felix Meiner Verlag, Hamburgo, 2024, p. 261, sección “Literatur zur Hegel-Forschung”.
+    Integra “La antifilosofía de Marx” en la bibliografía especializada sobre investigación hegeliana.
+  citation_en: <em>Hegel-Studien</em>, vol. 57, Felix Meiner Verlag, Hamburg, 2024, p. 261, “Literatur zur Hegel-Forschung”.
+    Includes “La antifilosofía de Marx” in the specialized bibliography on Hegel research.
+  citation_fr: <em>Hegel-Studien</em>, vol. 57, Felix Meiner Verlag, Hambourg, 2024, p. 261, « Literatur zur Hegel-Forschung
+    ». Intègre « La antifilosofía de Marx » dans la bibliographie spécialisée consacrée aux recherches sur Hegel.
+  featured_es: <strong>Diálogo bibliográfico · Hegel y Marx.</strong> “La antifilosofía de Marx” fue incorporado a la bibliografía
+    de literatura especializada sobre investigación hegeliana publicada en el volumen 57 de <em>Hegel-Studien</em>.
+  featured_en: <strong>Bibliographic dialogue · Hegel and Marx.</strong> “La antifilosofía de Marx” was incorporated into
+    the specialized Hegel bibliography published in volume 57 of <em>Hegel-Studien</em>.
+  featured_fr: <strong>Dialogue bibliographique · Hegel et Marx.</strong> « La antifilosofía de Marx » a été intégré à la
+    bibliographie spécialisée sur Hegel publiée dans le volume 57 de <em>Hegel-Studien</em>.
+  url: https://meiner-elibrary.de/book/1687/hegel-studien-bd-57
+  source_kind: official-publisher-record
+  verification_note: Ficha oficial de Felix Meiner del volumen 57; identifica la sección bibliográfica del volumen.
+- id: cisneros-2022
+  category: collaborative
+  featured: false
+  citation_es: José Luis Cisneros Arellano, “Asesoría filosófica y corrupción como problemática. Reporte de un proyecto de
+    exploración”, <em>Vestigium. Apuntes universitarios</em>, año 3, núm. 2, 2022, p. 9, nota 2. Cita el artículo elaborado
+    en coautoría sobre asesoría filosófica, Covid-19 y corrupción.
+  citation_en: José Luis Cisneros Arellano, “Asesoría filosófica y corrupción como problemática. Reporte de un proyecto de
+    exploración,” <em>Vestigium. Apuntes universitarios</em>, year 3, no. 2, 2022, p. 9, n. 2. Cites the co-authored article
+    on philosophical counseling, Covid-19, and corruption.
+  citation_fr: José Luis Cisneros Arellano, « Asesoría filosófica y corrupción como problemática. Reporte de un proyecto de
+    exploración », <em>Vestigium. Apuntes universitarios</em>, année 3, no 2, 2022, p. 9, note 2. Cite l’article en coécriture
+    consacré à la pratique philosophique, à la Covid-19 et à la corruption.
+  url: https://www.unez.edu.mx/revistas/2022/a3no2art1.pdf
+  source_kind: primary-fulltext
+  verification_note: PDF institucional del artículo en Vestigium.
+- id: palacios-2018
+  category: editorial
+  featured: false
+  citation_es: Óscar Palacios Bustamante, “Das Dilemma der Liebe und die Poetik der Aufrichtigkeit. Heinrich Heine und Alain
+    Badiou”, <em>Acta Universitatis Carolinae. Interpretationes</em>, 2018/1, p. 72, nota 10. Referencia el trabajo editorial
+    sobre “Amor y psicoanálisis” y la edición de <em>El balcón del presente</em>, en cuya preparación editorial participó
+    Raúl Reyes Camargo.
+  citation_en: Óscar Palacios Bustamante, “Das Dilemma der Liebe und die Poetik der Aufrichtigkeit. Heinrich Heine und Alain
+    Badiou,” <em>Acta Universitatis Carolinae. Interpretationes</em>, 2018/1, p. 72, n. 10. Refers to the editorial work on
+    “Amor y psicoanálisis” and to <em>El balcón del presente</em>, in whose editorial preparation Raúl Reyes Camargo participated.
+  citation_fr: Óscar Palacios Bustamante, « Das Dilemma der Liebe und die Poetik der Aufrichtigkeit. Heinrich Heine und Alain
+    Badiou », <em>Acta Universitatis Carolinae. Interpretationes</em>, 2018/1, p. 72, note 10. Renvoie au travail éditorial
+    sur « Amor y psicoanálisis » et à <em>El balcón del presente</em>, à la préparation éditoriale duquel Raúl Reyes Camargo
+    a participé.
+  url: https://karolinum.cz/data/clanek/7086/Interpret_8_1_0066.pdf
+  source_kind: primary-fulltext
+  verification_note: PDF oficial de Karolinum; la nota 10 identifica a Raúl Reyes Camargo en la edición del texto de Badiou.
+- id: velazquez-2021-lutero
+  category: editorial
+  featured: false
+  citation_es: 'Jorge Velázquez Delgado, <em>La sangre y las barricadas. Rebeldes, revolucionarios y reaccionarios en el siglo
+    XIX francés</em>, 2021, p. 91. Referencia <em>Martín Lutero: la Reforma protestante y los orígenes oscuros de la modernidad</em>,
+    obra coordinada conjuntamente por Raúl Reyes Camargo y Jorge Velázquez Delgado.'
+  citation_en: 'Jorge Velázquez Delgado, <em>La sangre y las barricadas. Rebeldes, revolucionarios y reaccionarios en el siglo
+    XIX francés</em>, 2021, p. 91. Refers to <em>Martín Lutero: la Reforma protestante y los orígenes oscuros de la modernidad</em>,
+    jointly edited by Raúl Reyes Camargo and Jorge Velázquez Delgado.'
+  citation_fr: 'Jorge Velázquez Delgado, <em>La sangre y las barricadas. Rebeldes, revolucionarios y reaccionarios en el siglo
+    XIX francés</em>, 2021, p. 91. Renvoie à <em>Martín Lutero: la Reforma protestante y los orígenes oscuros de la modernidad</em>,
+    ouvrage codirigé par Raúl Reyes Camargo et Jorge Velázquez Delgado.'
+  url: https://siia.unam.mx/siia-publico/c/busqueda_individual.php?id=78757
+  source_kind: official-bibliographic-record
+  verification_note: Registro institucional UNAM/SIIA de la obra citante con ISBN; no ofrece lectura por página.
