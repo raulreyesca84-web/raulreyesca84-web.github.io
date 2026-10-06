@@ -1,0 +1,216 @@
+{% assign lang = include.lang | default: "es" %}
+{% assign items = site.data.reception.items %}
+{% assign research_items = items | where: "category", "research" %}
+
+{% if lang == "en" %}
+  {% assign section_id = "reception" %}
+  {% assign eyebrow = "Academic reception" %}
+  {% assign heading = "Reception and Circulation of the Work · Academic Dialogues" %}
+  {% assign intro = "The reception and circulation of Raúl Reyes Camargo’s work can be traced through peer-reviewed articles, books, theses, and specialized bibliographies. These records document academic dialogues around political philosophy, Rousseau, Locke, Hegel, Marx, Althusser, Badiou, slavery, property, the political event, and subversion." %}
+  {% assign metric_total = "documented traces of academic reception" %}
+  {% assign metric_direct = "direct citations to research works" %}
+  {% assign metric_geo = "documented academic circulation" %}
+  {% assign geography = "Latin America and Europe" %}
+  {% assign selected = "Selected academic dialogues" %}
+  {% assign full_label = "View complete reception" %}
+  {% assign research_heading = "Reception of research works" %}
+  {% assign bibliography_heading = "Bibliographic dialogue" %}
+  {% assign collaborative_heading = "Circulation of collaborative work" %}
+  {% assign editorial_heading = "Editorial circulation and edited works" %}
+  {% assign link_label = "View source" %}
+  {% assign cv_text = "Expanded bibliographic documentation can also be consulted in the" %}
+  {% assign cv_label = "Academic CV" %}
+  {% assign cv_path = "../assets/cv-academico-raul-reyes-camargo.pdf" %}
+  {% assign scholar_label = "View Google Scholar" %}
+  {% assign academia_label = "View Academia.edu" %}
+{% elsif lang == "fr" %}
+  {% assign section_id = "reception" %}
+  {% assign eyebrow = "Réception scientifique" %}
+  {% assign heading = "Réception et circulation de l’œuvre · Dialogues académiques" %}
+  {% assign intro = "La réception et la circulation de l’œuvre de Raúl Reyes Camargo peuvent être suivies dans des articles évalués par les pairs, des livres, des mémoires et des bibliographies spécialisées. Ces traces documentent des dialogues académiques autour de la philosophie politique, Rousseau, Locke, Hegel, Marx, Althusser, Badiou, l’esclavage, la propriété, l’événement politique et la subversion." %}
+  {% assign metric_total = "traces documentées de réception scientifique" %}
+  {% assign metric_direct = "citations directes de travaux de recherche" %}
+  {% assign metric_geo = "circulation scientifique documentée" %}
+  {% assign geography = "Amérique latine et Europe" %}
+  {% assign selected = "Dialogues académiques sélectionnés" %}
+  {% assign full_label = "Consulter la réception complète" %}
+  {% assign research_heading = "Réception des travaux de recherche" %}
+  {% assign bibliography_heading = "Dialogue bibliographique" %}
+  {% assign collaborative_heading = "Circulation des travaux collaboratifs" %}
+  {% assign editorial_heading = "Circulation éditoriale et ouvrages dirigés" %}
+  {% assign link_label = "Consulter la source" %}
+  {% assign cv_text = "La documentation bibliographique détaillée peut également être consultée dans le" %}
+  {% assign cv_label = "CV académique" %}
+  {% assign cv_path = "../assets/cv-academico-raul-reyes-camargo.pdf" %}
+  {% assign scholar_label = "Consulter Google Scholar" %}
+  {% assign academia_label = "Voir Academia.edu" %}
+{% else %}
+  {% assign section_id = "recepcion" %}
+  {% assign eyebrow = "Recepción académica" %}
+  {% assign heading = "Recepción y circulación de la obra · Diálogos académicos" %}
+  {% assign intro = "La recepción y circulación de la obra de Raúl Reyes Camargo puede seguirse en artículos arbitrados, libros, tesis y bibliografías especializadas. Estos registros documentan diálogos académicos en torno a filosofía política, Rousseau, Locke, Hegel, Marx, Althusser, Badiou, esclavitud, propiedad, acontecimiento político y subversión." %}
+  {% assign metric_total = "huellas documentadas de recepción académica" %}
+  {% assign metric_direct = "citas directas a trabajos de investigación" %}
+  {% assign metric_geo = "circulación académica documentada" %}
+  {% assign geography = "América Latina y Europa" %}
+  {% assign selected = "Diálogos académicos seleccionados" %}
+  {% assign full_label = "Ver recepción completa" %}
+  {% assign research_heading = "Recepción de trabajos de investigación" %}
+  {% assign bibliography_heading = "Diálogo bibliográfico" %}
+  {% assign collaborative_heading = "Circulación de obra colaborativa" %}
+  {% assign editorial_heading = "Circulación editorial y de obra coordinada" %}
+  {% assign link_label = "Consultar fuente" %}
+  {% assign cv_text = "La documentación bibliográfica ampliada puede consultarse también en el" %}
+  {% assign cv_label = "CV académico" %}
+  {% assign cv_path = "assets/cv-academico-raul-reyes-camargo.pdf" %}
+  {% assign scholar_label = "Consultar Google Scholar" %}
+  {% assign academia_label = "Ver Academia.edu" %}
+{% endif %}
+
+<section id="{{ section_id }}" class="section">
+  <div class="wrap">
+    <p class="eyebrow">{{ eyebrow }}</p>
+    <h2>{{ heading }}</h2>
+
+    <p class="section-intro">{{ intro }}</p>
+
+    <div class="metrics">
+      <div>
+        <strong>{{ items | size }}</strong>
+        <span>{{ metric_total }}</span>
+      </div>
+      <div>
+        <strong>{{ research_items | size }}</strong>
+        <span>{{ metric_direct }}</span>
+      </div>
+      <div>
+        <strong>{{ geography }}</strong>
+        <span>{{ metric_geo }}</span>
+      </div>
+    </div>
+
+    <div class="prose">
+      <h3>{{ selected }}</h3>
+
+      {% for item in items %}
+        {% if item.featured %}
+          <div class="compact">
+            <p>
+              {% if lang == "en" %}
+                {{ item.featured_en }}
+              {% elsif lang == "fr" %}
+                {{ item.featured_fr }}
+              {% else %}
+                {{ item.featured_es }}
+              {% endif %}
+              {% if item.url %}
+                <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ link_label }}</a>.
+              {% endif %}
+            </p>
+          </div>
+        {% endif %}
+      {% endfor %}
+
+      <details>
+        <summary>{{ full_label }} — {{ items | size }}</summary>
+
+        <p><strong>{{ research_heading }}</strong></p>
+        <ol class="bibliography">
+          {% for item in items %}
+            {% if item.category == "research" %}
+              <li>
+                {% if lang == "en" %}
+                  {{ item.citation_en }}
+                {% elsif lang == "fr" %}
+                  {{ item.citation_fr }}
+                {% else %}
+                  {{ item.citation_es }}
+                {% endif %}
+                {% if item.url %}
+                  <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ link_label }}</a>.
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+
+        <p><strong>{{ bibliography_heading }}</strong></p>
+        <ol class="bibliography">
+          {% for item in items %}
+            {% if item.category == "bibliography" %}
+              <li>
+                {% if lang == "en" %}
+                  {{ item.citation_en }}
+                {% elsif lang == "fr" %}
+                  {{ item.citation_fr }}
+                {% else %}
+                  {{ item.citation_es }}
+                {% endif %}
+                {% if item.url %}
+                  <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ link_label }}</a>.
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+
+        <p><strong>{{ collaborative_heading }}</strong></p>
+        <ol class="bibliography">
+          {% for item in items %}
+            {% if item.category == "collaborative" %}
+              <li>
+                {% if lang == "en" %}
+                  {{ item.citation_en }}
+                {% elsif lang == "fr" %}
+                  {{ item.citation_fr }}
+                {% else %}
+                  {{ item.citation_es }}
+                {% endif %}
+                {% if item.url %}
+                  <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ link_label }}</a>.
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+
+        <p><strong>{{ editorial_heading }}</strong></p>
+        <ol class="bibliography">
+          {% for item in items %}
+            {% if item.category == "editorial" %}
+              <li>
+                {% if lang == "en" %}
+                  {{ item.citation_en }}
+                {% elsif lang == "fr" %}
+                  {{ item.citation_fr }}
+                {% else %}
+                  {{ item.citation_es }}
+                {% endif %}
+                {% if item.url %}
+                  <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ link_label }}</a>.
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+
+        <p>
+          {{ cv_text }}
+          <a href="{{ cv_path }}" target="_blank" rel="noopener noreferrer">{{ cv_label }}</a>.
+        </p>
+      </details>
+
+      <div class="actions">
+        <a class="button primary"
+           href="https://scholar.google.com/citations?user=AsY3YrgAAAAJ&hl=es"
+           target="_blank"
+           rel="noopener noreferrer">{{ scholar_label }}</a>
+
+        <a class="button"
+           href="https://unam1.academia.edu/RAULREYESCAMARGO"
+           target="_blank"
+           rel="noopener noreferrer">{{ academia_label }}</a>
+      </div>
+    </div>
+  </div>
+</section>
